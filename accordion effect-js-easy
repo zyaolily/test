@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin:0;
+				padding:0;
+				}
+				.list{
+				width:300px;
+				height:160px; 
+				margin:0 auto ;
+				border:1px solid #aaa;
+				}
+				.list h3{
+					font-size:16px;
+					height:30px;
+					line-height:30px;
+					background-color:#ccc;
+					padding-left:10px;
+				}
+				.list ul{
+					list-style:none;
+				}
+				.list ul li{
+					list-style:none;
+					padding-left:10px;
+					height:30px;
+					line-height:30px;
+					border-bottom:dotted 2px #FFA07A;
+				　　color:#000;
+				}
+				.list ul li:last-child{border-bottom:none;}
+				.list ul li a{
+					text-decoration: none;
+					}
+				.list ul li a:hover{
+					text-decoration: underline;
+					color:#DC143C;
+					}
+		</style>
+	</head>
+	<body>
+		<div class="list">
+			<h3>阅读排行</h3>
+			<ul>
+				<li><a href="###">舌尖上的中国:传世美味炮制完全攻略</a></li>
+				<li><a href="###">完全图解狗的心理</a></li>
+				<li><a href="###">左手婚姻,右手爱情</a></li>
+				<li><a href="###">假如给我三天光明(电子书)</a></li>	
+			</ul>
+		</div>
+	</body>
+</html>
