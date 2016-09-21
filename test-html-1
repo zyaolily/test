@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>demo-html编码</title>
+	</head>
+	<body>
+		<h1>网站一级标题</h1>
+		<ul>
+			<li><a href="###">导航链接1</a></li>
+			<li><a href="###">导航链接2</a></li>
+			<li><a href="###">导航链接3</a></li>
+			<li><a href="###">导航链接4</a></li>
+			<h2>文章一级标题</h2>
+			<h2>文章二级标题</h2>
+			<p>文章作者  文章发表时间</p>
+			<p>百度前端技术学院的课程任务是由百度前端工程师专为对前端不同掌握程度的同学设计。我们尽力保证课程内容的质量以及学习难度的合理性
+				，但即使如此，真正决定课程效果的，还是你的每一次思考和实践。<br/>
+			课程多数题目的解决方案都不是唯一的，
+			这和我们在实际工作中的情况也是一致的。因此，我们的要
+			求不仅仅是实现设计稿的效果，更是要多去思考不同的解决
+			方案，评估不同方案的优劣，然后使用在该场景下最优雅的
+			方式去实现。那些最终没有被我们采纳的方案，同样也可以帮助我们学到很多知识。<br/>
+			所以，我们列出的参考资料未必是实现需求所必须的。有的时候，实现题目的要求很简单，甚至参考资料里就有，
+			但是背后的思考和亲手去实践却是任务最关键的一部分。
+			在学习这些资料时，<a href="http://ife.baidu.com/">百度前端学院，网址：http://ife.baidu.com/</a>要多思考，多提问，多质疑。
+			相信通过和小伙伴们的交流，能让你的学习事半功倍。
+			</p>
+			<img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" title="陈意涵美美哒" style="width:300px;height:200px;">
+			<p>百度前端技术学院的课程任务是由百度前端工程师专为对前端不同掌握程度的同学设计。我们尽力保证课程内容的质量以及学习难度的合理性
+				，但即使如此，真正决定课程效果的，还是你的每一次思考和实践。<br/>
+			课程多数题目的解决方案都不是唯一的，
+			这和我们在实际工作中的情况也是一致的。因此，我们的要
+			求不仅仅是实现设计稿的效果，更是要多去思考不同的解决
+			方案，评估不同方案的优劣，然后使用在该场景下最优雅的
+			方式去实现。那些最终没有被我们采纳的方案，同样也可以帮助我们学到很多知识。<br/>
+			所以，我们列出的参考资料未必是实现需求所必须的。有的时候，实现题目的要求很简单，甚至参考资料里就有，
+			但是背后的思考和亲手去实践却是任务最关键的一部分。
+			在学习这些资料时，<a href="http://ife.baidu.com/">百度前端学院，网址：http://ife.baidu.com/</a>要多思考，多提问，多质疑。
+			相信通过和小伙伴们的交流，能让你的学习事半功倍。
+			</p>
+			<h2>另一篇文章的一级标题</h2>
+			<h2>文章二级标题</h2>
+			<p>文章作者  文章发表时间</p>
+			<p>百度前端技术学院的课程任务是由百度前端工程师专为对前端不同掌握程度的同学设计。我们尽力保证课程内容的质量以及学习难度的合理性
+				，但即使如此，真正决定课程效果的，还是你的每一次思考和实践。<br/>
+			课程多数题目的解决方案都不是唯一的，
+			这和我们在实际工作中的情况也是一致的。因此，我们的要
+			求不仅仅是实现设计稿的效果，更是要多去思考不同的解决
+			方案，评估不同方案的优劣，然后使用在该场景下最优雅的
+			方式去实现。那些最终没有被我们采纳的方案，同样也可以帮助我们学到很多知识。<br/>
+			所以，我们列出的参考资料未必是实现需求所必须的。有的时候，实现题目的要求很简单，甚至参考资料里就有，
+			但是背后的思考和亲手去实践却是任务最关键的一部分。
+			在学习这些资料时，<a href="http://ife.baidu.com/">百度前端学院，网址：http://ife.baidu.com/</a>要多思考，多提问，多质疑。
+			相信通过和小伙伴们的交流，能让你的学习事半功倍。
+			</p>
+			<img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" title="陈意涵美美哒" style="width:300px;height:200px;">
+			<ul>
+				<li>列表项目1</li>
+				<li>列表项目2</li>
+				<li>列表项目3</li>
+			</ul>
+			<h1>图片</h1>
+			<ul>
+				<li>陈意涵美美哒+1<br /><img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" title="陈意涵美美哒" style="width:300px;height:200px;"></li>
+				<li>陈意涵美美哒+2<br /><img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" style="width:300px;height:200px;"></li>
+				<li>陈意涵美美哒+3<br /><img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" style="width:300px;height:200px;"></li>
+				<li>陈意涵美美哒+4<br /><img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" style="width:300px;height:200px;"></li>
+				<li>陈意涵美美哒+5<br /><img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" style="width:300px;height:200px;"></li>
+				<li>陈意涵美美哒+6<br /><img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" style="width:300px;height:200px;"></li>
+				<li>陈意涵美美哒+10000<br /><img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" style="width:300px;height:200px;"></li>
+			</ul>
+			<h2>最后一片文章一级标题</h2>
+			<h3>文章二级标题</h3>
+			<p>文章作者  文章发表时间</p>
+			<ol>
+				<li>排名1</li>
+				<li>排名2</li>
+				<li>排名3</li>
+			</ol>
+			<p>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格</p>
+			<table border="1">
+				<thead>
+					<tr>
+						<td>编号</td>
+						<td>姓名</td>
+						<td>年龄</td>
+						<td>备注</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>001</td>
+						<td>张三</td>
+						<td>29</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>002</td>
+						<td>张三</td>
+						<td>29</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>003</td>
+						<td>张三</td>
+						<td>29</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>004</td>
+						<td>张三</td>
+						<td>29</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>总计(人)</td>
+						<td colspan="3"></td>
+					</tr>
+				</tbody>
+			</table>
+			<h2>这里以后是一个侧栏</h2>
+			<h3>这是侧栏的窗口的标题</h3>
+			<form>
+				<div>
+					<label>请输入邮箱地址：</label>
+					<input type="text" placeholder="这是一个文本输入框">
+				</div>
+				<p>邮箱地址请按要求输入</p>
+				<div>
+					<label>请输入密码：</label>
+					<input type="text" placeholder="这是一个文本输入框">
+					<label>请重新输入密码：</label>
+					<input type="text" placeholder="这是一个文本输入框">
+				</div>
+				<p>密码请为6-16位英文数字</p>
+				<div>
+					<label><input type="radio"value="男">男</label>
+					<label><input type="radio"value="女">女</label>
+					<select>
+						<option>选项1</option>
+						<option>选项2</option>
+						<option>选项3</option>
+						<option>选项4</option>
+					</select>
+					<label>爱好:</label>
+					<label><input type="checkbox" value="运动">运动</label>
+					<label><input type="checkbox" value="艺术">艺术</label>
+					<label><input type="checkbox" value="科学">科学</label>
+					<label>个人描述：</label>
+					<label><textarea placeholder="这是一个多行输入框，请输入您的描述"></textarea></label>
+					<label><input type="submit" value="确认提交"></label>
+				</div>
+			</form>
+			<p>版权所有@</p>
+	</body>
+</html>
