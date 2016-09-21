@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>demo-html编码</title>
+		<link rel="stylesheet" href="index.css" />
+		<style type="text/css">
+			*{margin:0;padding:0;}
+body{
+	font-size:14px;
+	font-family: "微软雅黑" arial;
+	min-width:760px;
+}
+header{
+	width:100%;
+	height:60px;
+	background:aqua;
+	position:relative;
+}
+header h1 img{
+	width:40px;
+	height:40px;
+	padding-left:20px;
+	margin:10px 0;
+}
+header ul{
+	position:absolute;
+	top:0;
+	right:10px;
+}
+header ul li{
+	display:inline-block;
+	float:left;
+	width:120px;
+	text-align:center;
+	padding:20px 10px;
+}
+header ul li:hover{
+	border-bottom:2px solid #FF8C00;
+	background-color:aquamarine;
+}
+header ul li a{
+	color:#FF8C00;
+}
+.main{
+	background-color:#ccc;
+	margin:0 auto;
+	padding-top:50px;
+	min-width:760px;
+}
+.main article:first-child{
+	margin-top:0;
+}
+.main article h2{
+	font-weight:bold;
+}
+.main article h3{
+	font-weight:bold;
+	color:#ccc;
+}
+.main article p:first-child{
+	color:#ccc;
+}
+.main article .author,.main article .time{
+	color:#ccc;
+}
+.main article h2,.main article h2{
+	padding:20px 0;
+}
+.main article .list1{
+	margin-top:60px;
+	list-style:none;
+}
+.main article .list1 li{
+	line-height:30px;
+	height:30px;
+}
+.main article .list2{
+	margin-left:100px;
+   list-style:none;	
+}
+.main article .list2 li{
+	border:1px solid #ccc;
+	width:340px;
+	text-align:center ;
+	padding:20px 0;
+	margin:20px 0;
+}
+.main article .list2 li img{
+	margin-top:20px;
+}
+.main article .list3{
+	margin-left:50px;
+}
+.main article .list3 li{
+	line-height:30px;
+	height:30px;
+	font-weight: bold;
+}
+.main article table{
+	margin-left:30px;
+	width:98%;
+	text-align:center;
+    border-collapse: collapse;
+}
+.main article table thead tr td{
+	background-color:#000;
+	color:#fff;
+	height:30px;
+	line-height:30px;
+}
+.main article table tbody tr td{
+	height:30px;
+	line-height:30px;
+}
+.main article table tbody tr:last-child{
+	background-color:#ddd;
+}
+article,aside{
+	margin:20px 40px;
+	padding:40px 20px;
+	background-color:#fff;
+	border:2px solid #aaa;
+	box-shadow:10px 10px 10px #ccc;
+	
+}
+article p{
+	text-indent:2em;
+	line-height:30px;
+	}
+aside h4{
+	height:40px;
+	border-left:5px solid #ccc;
+	line-height:40px;
+	padding-left:20px;
+}
+
+.form-group{
+	margin:20px 0;
+}
+.btn{
+	width:98%;
+	background-color:dodgerblue;
+	border:none;
+	display:inline-block;
+	height:40px;
+	line-height:40px;
+	color:#fff;
+	border-radius:10px;
+}
+footer{
+	background-color:#000;
+	color:#fff;
+	font-weight:bold ;
+	height:50px;
+}
+footer p{
+	margin:0 auto;
+}
+
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>
+				<img src="img/HBuilder.png">
+			</h1>
+			<ul>
+				<li><a href="###">导航链接1</a></li>
+				<li><a href="###">导航链接2</a></li>
+				<li><a href="###">导航链接3</a></li>
+				<li><a href="###">导航链接4</a></li>
+			</ul>
+		</header>
+		<div class="main">
+			<article>
+			<h2>文章一级标题</h2>
+			<h3>文章二级标题</h3>
+			<span class="author">文章作者</span>  
+			<span class="time">文章发表时间</span>
+			<p>百度前端技术学院的课程任务是由百度前端工程师专为对前端不同掌握程度的同学设计。我们尽力保证课程内容的质量以及学习难度的合理性
+				，但即使如此，真正决定课程效果的，还是你的每一次思考和实践。<br/>
+			课程多数题目的解决方案都不是唯一的，
+			这和我们在实际工作中的情况也是一致的。因此，我们的要
+			求不仅仅是实现设计稿的效果，更是要多去思考不同的解决
+			方案，评估不同方案的优劣，然后使用在该场景下最优雅的
+			方式去实现。那些最终没有被我们采纳的方案，同样也可以帮助我们学到很多知识。<br/>
+			所以，我们列出的参考资料未必是实现需求所必须的。有的时候，实现题目的要求很简单，甚至参考资料里就有，
+			但是背后的思考和亲手去实践却是任务最关键的一部分。
+			在学习这些资料时，<a href="http://ife.baidu.com/">百度前端学院，网址：http://ife.baidu.com/</a>要多思考，多提问，多质疑。
+			相信通过和小伙伴们的交流，能让你的学习事半功倍。
+			</p>
+			<img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" title="陈意涵美美哒" style="width:300px;height:200px;">
+			<p>百度前端技术学院的课程任务是由百度前端工程师专为对前端不同掌握程度的同学设计。我们尽力保证课程内容的质量以及学习难度的合理性
+				，但即使如此，真正决定课程效果的，还是你的每一次思考和实践。<br/>
+			课程多数题目的解决方案都不是唯一的，
+			这和我们在实际工作中的情况也是一致的。因此，我们的要
+			求不仅仅是实现设计稿的效果，更是要多去思考不同的解决
+			方案，评估不同方案的优劣，然后使用在该场景下最优雅的
+			方式去实现。那些最终没有被我们采纳的方案，同样也可以帮助我们学到很多知识。<br/>
+			所以，我们列出的参考资料未必是实现需求所必须的。有的时候，实现题目的要求很简单，甚至参考资料里就有，
+			但是背后的思考和亲手去实践却是任务最关键的一部分。
+			在学习这些资料时，<a href="http://ife.baidu.com/">百度前端学院，网址：http://ife.baidu.com/</a>要多思考，多提问，多质疑。
+			相信通过和小伙伴们的交流，能让你的学习事半功倍。
+			</p>
+		</article>
+		
+		<article>	
+			<h2>另一篇文章的一级标题</h2>
+			<h3>文章二级标题</h3>
+			<span class="author">文章作者</span>  
+			<span class="time">文章发表时间</span>
+			<p>百度前端技术学院的课程任务是由百度前端工程师专为对前端不同掌握程度的同学设计。我们尽力保证课程内容的质量以及学习难度的合理性
+				，但即使如此，真正决定课程效果的，还是你的每一次思考和实践。<br/>
+			课程多数题目的解决方案都不是唯一的，
+			这和我们在实际工作中的情况也是一致的。因此，我们的要
+			求不仅仅是实现设计稿的效果，更是要多去思考不同的解决
+			方案，评估不同方案的优劣，然后使用在该场景下最优雅的
+			方式去实现。那些最终没有被我们采纳的方案，同样也可以帮助我们学到很多知识。<br/>
+			所以，我们列出的参考资料未必是实现需求所必须的。有的时候，实现题目的要求很简单，甚至参考资料里就有，
+			但是背后的思考和亲手去实践却是任务最关键的一部分。
+			在学习这些资料时，<a href="http://ife.baidu.com/">百度前端学院，网址：http://ife.baidu.com/</a>要多思考，多提问，多质疑。
+			相信通过和小伙伴们的交流，能让你的学习事半功倍。
+			</p>
+			<img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" title="陈意涵美美哒" style="width:300px;height:200px;">
+			<ul class="list1">
+				<li>列表项目1</li>
+				<li>列表项目2</li>
+				<li>列表项目3</li>
+			</ul>
+			</article>
+			
+			<article>
+			<h1>图片</h1>
+			<ul class="list2">
+				<li>陈意涵美美哒+1<br /><img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" title="陈意涵美美哒" style="width:300px;height:200px;"></li>
+				<li>陈意涵美美哒+2<br /><img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" style="width:300px;height:200px;"></li>
+				<li>陈意涵美美哒+3<br /><img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" style="width:300px;height:200px;"></li>
+				<li>陈意涵美美哒+4<br /><img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" style="width:300px;height:200px;"></li>
+				<li>陈意涵美美哒+5<br /><img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" style="width:300px;height:200px;"></li>
+				<li>陈意涵美美哒+6<br /><img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" style="width:300px;height:200px;"></li>
+				<li>陈意涵美美哒+10000<br /><img src="http://sz.people.com.cn/NMediaFile/2016/0309/LOCAL201603091601000247194387246.jpeg" alt="陈意涵美美哒" style="width:300px;height:200px;"></li>
+			</ul>
+			</article>
+			
+			<article>
+			<h2>最后一片文章一级标题</h2>
+			<h3>文章二级标题</h3>
+			<span class="author">文章作者</span>  
+			<span class="time">文章发表时间</span>
+			<ol class="list3">
+				<li>排名1</li>
+				<li>排名2</li>
+				<li>排名3</li>
+			</ol>
+			
+			
+			<p>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格</p>
+			<table border="1">
+				<thead>
+					<tr>
+						<td>编号</td>
+						<td>姓名</td>
+						<td>年龄</td>
+						<td>备注</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>001</td>
+						<td>张三</td>
+						<td>29</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>002</td>
+						<td>张三</td>
+						<td>29</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>003</td>
+						<td>张三</td>
+						<td>29</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>004</td>
+						<td>张三</td>
+						<td>29</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>总计(人)</td>
+						<td colspan="3"></td>
+					</tr>
+				</tbody>
+			</table>
+			</article>
+			<aside>
+			<h4>这里以后是一个侧栏,这是侧栏的窗口的标题</h4>
+			<form>
+				<div class="form-group">
+					<label>请输入邮箱地址：</label>
+					<input type="text" placeholder="这是一个文本输入框">
+				</div>
+				<p>邮箱地址请按要求输入</p>
+				<div  class="form-group">
+					<label>请输入密码：</label>
+					<input type="text" placeholder="这是一个文本输入框">
+				</div>
+				<div  class="form-group">
+					<label>请重新输入密码：</label>
+					<input type="text" placeholder="这是一个文本输入框">
+				</div>
+				<p>密码请为6-16位英文数字</p>
+				<div  class="form-group">
+					<label><input type="radio"value="男">男</label>
+					<label><input type="radio"value="女">女</label>
+				<div  class="form-group">
+					<label>城市：</label>
+					<select>
+						<option>选项1</option>
+						<option>选项2</option>
+						<option>选项3</option>
+						<option>选项4</option>
+					</select>
+				</div>
+					<div  class="form-group">
+						<label>爱好:</label>
+						<label><input type="checkbox" value="运动">运动</label>
+						<label><input type="checkbox" value="艺术">艺术</label>
+						<label><input type="checkbox" value="科学">科学</label>
+					</div>
+					<div  class="form-group">
+						<label>个人描述：</label>
+						<label><textarea placeholder="这是一个多行输入框，请输入您的描述"></textarea></label>
+					</div>
+					<div class="form-group">
+						<label><input class="btn" type="submit" value="确认提交"></label>
+					</div>
+					</div>
+					
+			</form>
+			</aside>
+		</div>
+		
+			
+			<footer><p>版权所有@</p></footer>
+	</body>
+</html>
